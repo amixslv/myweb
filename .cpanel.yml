@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/amixlv/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/rsync -av --delete ./ $DEPLOYPATH
