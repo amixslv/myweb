@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* body izskats */
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+/* Visu Section izskats */
+section {
+    border: 1px solid white;
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Planētu section fona krāsas */
+.section-Venera {
+    background-color: rgb(205, 133, 63);
+}
+
+.section-Marss {
+    background-color: rgb(188, 39, 50);
+}
+
+.section-Jupiters {
+    background-color: rgb(255, 165, 0);
+}
+
+.section-Saturns {
+    background-color: rgb(210, 180, 140);
+}
+
+/* Virsrakstu izskats */
+.div-text h1 {
+    text-align: right;
+    font-size: 5em;
+    margin: 0;
+}
+
+/* Paragrāfu izskats */
+.div-text p {
+    margin-bottom: 1em;
+    margin-right: 2em;
+    margin-left: 3em;
+    text-align: justify;
+    text-indent: 50px;
+    font-weight: 600;
+}
+
+/* Bildes izsakats */
+.div-img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+
+}
+
+/* footer iestatījumi */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: aqua;
+}
+
+/* mob */
+@media screen and (max-width: 600px) {
+    section {
+        border-radius: 2em;
+        flex-wrap: wrap-reverse;
+
+    }
+
+    .div-text {
+        position: relative;
+        top: -100px;
+
+    }
+
+    .div-text h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .div-text p {
+        margin-top: 30px;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        font-weight: 200;
+        font-style: italic;
+
+    }
+
+    .div-img {
+        justify-content: center;
+        display: inside;
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
+
+/* tab */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    section {
+        border-radius: 2em;
+        flex-wrap: wrap-reverse;
+
+    }
+
+    .div-text {
+        position: relative;
+        top: -100px;
+
+    }
+
+    .div-text h1 {
+        margin-right: 2em;
+        font-size: 3em;
+    }
+
+    .div-text p {
+        margin-top: 30px;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+        font-weight: 200;
+    }
+
+    .div-img {
+        justify-content: center;
+        display: inside;
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+/* desktop */
+@media screen and (min-width: 901px) {}
+
+</style>
+</head>
+
+<body>
+    
+    <section class="section-Venera">
+        <div class="div-text">
+            <h1>Venera</h1>
+            <p>Venera jeb Venēra (latīņu: Venus) ir Saules sistēmas otrā planēta no Saules, kā arī karstākā un tuvākā
+                planēta Zemei. Tā ir viena no Zemes grupas planētām. Venera ir trešais spilgtākais objekts
+                (spilgtākie ir Saule un Mēness) pie debess sfēras. Veneras orbīta atrodas Zemes orbītas iekšpusē, jo
+                Venera atrodas tuvāk Saulei nekā Zeme. Attālums no Zemes līdz Venerai mainās no 45 līdz 259 milj.
+                kilometru. Tā kā vidējais attālums no Saules līdz Venerai ir 108,2 milj. km, tad Venera saņem no Saules
+                vismaz divas reizes vairāk saules enerģijas nekā Zeme, turklāt siltumnīcas efekta rezultātā planētas
+                vidējā temperatūra sasniedz 462 °C. Tādējādi Venera ir Saules sistēmas karstākā planēta.</p>
+        </div>
+        <!-- // Teksts -->
+
+        <div class="div-img">
+            <img src="https://static.vecteezy.com/system/resources/previews/042/382/213/non_2x/ai-generated-realistic-venus-planet-isolated-image-free-png.png"
+                alt="Venera">
+        </div>
+        <!-- // Bilde -->
+    </section>
+    <!-- // Venēras apraksts -->
+    <section class="section-Marss">
+        <div class="div-text">
+            <h1>Marss</h1>
+            <p>Marss ir Saules sistēmas ceturtā planēta, kuru nereti dēvē arī par "Sarkano planētu". Marss nosaukts
+                romiešu kara dieva vārdā. Marsam ir divi pavadoņi — Foboss un Deimoss. Marss pieder pie Zemes grupas
+                planētām un tiek klasificēts kā auksta un sausa tuksneša planēta. Marss ir otra tuvākā planēta Zemei
+                (uzreiz aiz Veneras), līdz ar to daudzas valstis mūsdienās izvēlas iesaistīties aktīvā Marsa izpētē, kas
+                galvenokārt tiek veikta caur vairākām starpplanētu zondēm un pašgājēju robotiem. Tāpat tuvākajās
+                desmitgadēs starp vairākām valstu kosmosa aģentūrām un privātajām kosmosa kompānijām tiek apsvērta arī
+                potenciāla cilvēku misija uz Marsu, kurai teorētiski varētu sekot arī planētas kolonizācijas un
+                teraformēšanas process. Marsa diametrs ir apmēram 6 792,4 km, tas ir aptuveni divreiz mazāks nekā Zemei.
+                Marsam ir relatīvi blīva atmosfēra, kas sastāv lielākoties no oglekļa dioksīda (95,32%), slāpekļa
+                (2,7%), argona (1,6%) un skābekļa (0,13%). Marsa virsmas vidējā temperatūra ir −63 °C. Marsa
+                diennakts garums ir aptuveni 24,6 stundas.</p>
+        </div>
+        <!-- // Teksts -->
+
+        <div class="div-img">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/024/509/665/small_2x/planet-mars-isolated-on-transparent-background-created-with-generative-ai-png.png"
+                alt="Marss">
+        </div>
+        <!-- // Bilde -->
+    </section>
+    <!-- // Marsa apraksts -->
+    <section class="section-Jupiters">
+        <div class="div-text">
+            <h1>Jupiters</h1>
+            <p>Jupiters ir Saules sistēmas piektā, kā arī lielākā un masīvākā planēta un kopā ar Saturnu, Urānu un
+                Neptūnu tiek klasificēts kā gāzu planēta, kas nozīmē, ka tā iekšējo sastāvu un atmosfēru galvenokārt
+                veido ūdeņradis un hēlijs. Raugoties no Zemes, Jupiters kopā ar Mēnesi, Veneru un Marsu ir viens no
+                spožākajiem astronomiskajiem objektiem nakts debesīs, līdz ar to tas viegli ir saskatāms ar neapbruņotu
+                aci. Šī iemesla dēļ par tā eksistenci bija zināms jau senatnē, kā rezultātā tas ir nosaukts seno romiešu
+                mitoloģijas galvenā dieva Jupitera vārdā.</p>
+        </div>
+        <!-- // Teksts -->
+
+        <div class="div-img">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/047/406/725/small_2x/planet-jupiter-isolated-on-transparent-backgrounds-ai-generated-png.png"
+                alt="Jupiters">
+        </div>
+        <!-- // Bilde -->
+    </section>
+    <!-- // Jupiters apraksts -->
+    <section class="section-Saturns">
+        <div class="div-text">
+            <h1>Saturns</h1>
+            <p>Saturns, viena no milzu planētām, ir Saules sistēmas sestā planēta no Saules. Tā ir otra lielākā Saules
+                sistēmas planēta un tālākā planēta, ko no Zemes var labi redzēt ar neapbruņotu aci (Urāns ir praktiski
+                uz redzamības robežas). Planēta ir nosaukta romiešu dieva Saturna vārdā. Saturna īpaša pazīme ir tā
+                gredzeni, kas sastāv no ledus un putekļiem. Saturnam ir daudz pavadoņu — 146.</p>
+        </div>
+        <!-- // Teksts -->
+
+        <div class="div-img">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/043/576/202/small_2x/saturn-planet-on-isolated-transparent-background-png.png"
+                alt="Saturns">
+        </div>
+        <!-- // Bilde -->
+
+    </section>
+    <!-- // Saturns apraksts -->
+
+    <footer>
+        <p>Infermācijas avots <a href="https://lv.wikipedia.org/wiki/Saules_sist%C4%93ma">šeit.</a>
+        </p>
+    </footer>
+    <!-- // Informācijas avots -->
+
+    <script>
+        // JavaScript animācijas kods
+        document.querySelectorAll('.div-img').forEach(img => {
+            img.addEventListener('mouseover', () => {
+                img.style.animationPlayState = 'paused';
+            });
+            img.addEventListener('mouseout', () => {
+                img.style.animationPlayState = 'running';
+            });
+        });
+    </script>
+</body>
+
+</html>
+
